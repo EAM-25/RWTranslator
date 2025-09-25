@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$Behavior"
+         android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+
+        <com.google.android.material.appbar.MaterialToolbar
+             android:layout_height="?attr/actionBarSize"
+             android:layout_width="match_parent"
+             android:background="?attr/colorPrimary"
+             app:menu="@menu/doublelist_menu"
+             app:navigationIcon="@drawable/return_left"
+             app:popupTheme="@style/ThemeOverlay"
+             android:id="@+id/doublelist_toolbar" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ExpandableListView
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:groupIndicator="@null"
+         android:id="@+id/list">
+
+    </ExpandableListView>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_gravity="bottom"
+         android:id="@+id/bottom_app_bar">
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 style="@style/CardViewStyle"
+                 android:id="@+id/cardview_seclect_all">
+
+                <ImageView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:src="@drawable/ic_select_all"
+                     style="@style/CardImageStyle" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 style="@style/CardViewStyle"
+                 android:id="@+id/cardview_inverse_selection">
+
+                <ImageView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:src="@drawable/ic_inverse_selection"
+                     style="@style/CardImageStyle" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 style="@style/CardViewStyle"
+                 android:id="@+id/cardview_multi_select">
+
+                <ImageView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:src="@drawable/ic_add"
+                     style="@style/CardImageStyle"
+                     android:id="@+id/imageview_multi_select" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 style="@style/CardViewStyle"
+                 android:id="@+id/cardview_translate">
+
+                <ImageView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:src="@drawable/ic_web"
+                     style="@style/CardImageStyle" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 style="@style/CardViewStyle"
+                 android:id="@+id/section_act_bottom_appbar_card_ai_translate">
+
+                <ImageView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:src="@drawable/ic_web_ai"
+                     style="@style/CardImageStyle" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

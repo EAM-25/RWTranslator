@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$Behavior"
+         android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+
+        <com.google.android.material.appbar.MaterialToolbar
+             android:layout_height="?attr/actionBarSize"
+             android:layout_width="match_parent"
+             android:background="@color/colorPrimary"
+             app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light"
+             android:id="@+id/main_act_toolbar">
+
+            <ImageButton
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:src="@drawable/ic_settings"
+                 android:background="@android:color/transparent"
+                 android:paddingRight="16dp"
+                android:id="@+id/gotoSetting_button"
+                android:layout_gravity="end"
+                app:tint="@android:color/white" />
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+         android:id="@+id/main_act_NestedScrollView">
+            <androidx.recyclerview.widget.RecyclerView
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:padding="10dp"
+                 android:id="@+id/main_act_recyclerview" />
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Main FAB -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_add"
+         android:layout_margin="16dp"
+         app:layout_anchorGravity="bottom|end"
+         app:layout_anchor="@id/main_act_NestedScrollView"
+         android:id="@+id/main_act_fab_add" />
+
+    <!-- Sub FAB for loading zip files -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_add"
+         android:layout_gravity="bottom|end"
+         android:layout_marginEnd="20dp"
+         android:layout_marginBottom="88dp"
+         android:id="@+id/main_act_fab_load_zip"
+         android:visibility="gone"
+         app:fabSize="mini" />
+
+    <!-- Sub FAB for selecting folder -->
+     <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+         android:contentDescription="TODO"
+         android:src="@drawable/ic_arrow_expand"
+          android:layout_gravity="bottom|end"
+          android:layout_marginEnd="20dp"
+          android:layout_marginBottom="144dp"
+          android:id="@+id/main_act_fab_select_folder"
+          android:visibility="gone"
+          app:fabSize="mini" />
+
+    <!-- Label for zip loading -->
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="@string/main_act_fab_load_archive"
+         android:textColor="@android:color/white"
+         android:background="@color/colorPrimary"
+         android:padding="8dp"
+         android:layout_gravity="bottom|end"
+         android:layout_marginBottom="88dp"
+         android:layout_marginEnd="72dp"
+         android:id="@+id/main_act_label_load_zip"
+         android:visibility="gone"
+         android:textSize="12sp" />
+
+    <!-- Label for folder selection -->
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="@string/main_act_fab_select_folder"
+         android:textColor="@android:color/white"
+         android:background="@color/colorPrimary"
+         android:padding="8dp"
+         android:layout_gravity="bottom|end"
+         android:layout_marginBottom="144dp"
+         android:layout_marginEnd="72dp"
+         android:id="@+id/main_act_label_select_folder"
+         android:visibility="gone"
+         android:textSize="12sp" />
+     <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:textSize="16sp"
+                android:layout_centerInParent="true"
+                 android:textColor="@android:color/tab_indicator_text"
+                 android:id="@+id/empty_view"
+                 android:layout_gravity="center"
+                android:textStyle="bold"
+                 android:text="@string/main_act_empty_project_tips" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

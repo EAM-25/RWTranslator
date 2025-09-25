@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Application" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    <!-- 强制指定轮廓色 -->
+    <item name="colorOutline">@color/m3_outline</item>
+    <!-- 定义表面容器色 -->
+    <item name="colorSurfaceContainer">@color/m3_surface_container</item>
+         <!-- 次要容器色 -->
+    <item name="colorSecondaryContainer">@color/material_secondary_container</item>
+        <!-- res/values/themes.xml -->
+
+    
+    <item name="colorSurface">@color/surface_color</item>
+    <item name="colorOnSurface">@color/on_surface_text_color</item>
+    <item name="colorOnSecondaryContainer">@color/on_secondary_container_text</item>
+    <item name="textAppearanceTitleMedium">@style/TextAppearance.MyApp.TitleMedium</item>
+    <item name="textAppearanceBodySmall">@style/TextAppearance.MyApp.BodySmall</item>
+    <!-- 禁用动态颜色 -->
+    <item name="dynamicColorThemeOverlay">@null</item>
+    </style>
+    <style name="ThemeOverlay" parent="ThemeOverlay.Material3.Light">    
+    <item name="overlapAnchor">false</item>  <!--设置不覆盖锚点-->
+    </style>
+</resources>

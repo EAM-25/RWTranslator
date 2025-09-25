@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_engine">
+        <item>@string/project_act_tencent_translate</item>
+        <item>@string/project_act_baidu_translate</item>
+        <item>@string/project_act_sogou_translate</item>
+        <item>@string/project_act_google_translate</item>
+        <item>@string/project_act_microsoft_translate</item>
+        <item>@string/project_act_deepl_translate</item>
+        <item>@string/project_act_yandex_translate</item>
+
+    </string-array>
+    <string-array name="select_model"
+    >
+        <item>Gemini 2.0 Flush</item>
+        <item>Gemini 2.0 Flush-Lite</item>
+    </string-array>
+    <string-array name="select_model_values"
+    >
+        <item>gemini_2.0_flush</item>
+        <item>gemini_2.0_flush_lite</item>
+    </string-array>
+</resources>

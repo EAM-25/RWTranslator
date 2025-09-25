@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_marginEnd="8dp"
+         app:counterEnabled="true"
+         android:hint="@string/project_act_swipe_menu_rename_dialog_hint"
+         style="@style/Widget.Material3.TextInputEditText.OutlinedBox.Dense"
+         android:layout_marginStart="8dp"
+         android:id="@+id/edittext_textinputlayout"
+         app:counterMaxLength="40">
+
+        <com.google.android.material.textfield.TextInputEditText
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:singleLine="true"
+             android:id="@+id/edittext_textinput" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

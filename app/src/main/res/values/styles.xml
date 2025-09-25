@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources> 
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    </style>
+    <style name="RadioGroupButtonStyle" >
+        <item name="android:button">@null</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    <style
+   name="CardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="strokeWidth">0dp</item>
+         <item name="android:gravity">center</item>
+        <item name="cardCornerRadius">0dp</item>
+    </style>
+    <style name="CardImageStyle" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_gravity">center</item>
+         
+    </style>
+   <!-- res/values/styles.xml -->
+<style name="TextAppearance.MyApp.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+    <item name="android:textSize">16sp</item>
+    <item name="android:fontFamily">sans-serif-medium</item>
+</style>
+
+<style name="TextAppearance.MyApp.BodySmall" parent="TextAppearance.Material3.BodySmall">
+    <item name="android:textSize">12sp</item>
+    <item name="android:lineSpacingMultiplier">1.2</item>
+</style>
+</resources>

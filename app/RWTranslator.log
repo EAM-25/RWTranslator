@@ -1,0 +1,30 @@
+[2025-08-07 20:30:43.228] DEBUG/com.eam.rwtranslator.ui.main.MainViewModel: Current version: 10310, Remote version: 10310
+[2025-08-07 20:30:48.738] DEBUG/com.eam.rwtranslator.utils.CacheManager: 序列化缓存目录: /storage/emulated/0/Android/data/com.eam.rwtranslator/cache/serial
+[2025-08-07 20:30:53.758] VERBOSE/com.eam.rwtranslator.ui.project.TranslationConfigManager: translationIniFiles size:223
+[2025-08-07 21:12:56.779] DEBUG/com.eam.rwtranslator.ui.editor.SectionEditorActivity: Modification status set to: true
+[2025-08-07 21:12:57.433] ERROR/com.eam.rwtranslator.ui.editor.SectionEditorAdapter$1: java.io.IOException: {"error":{"code":400035,"message":"The source language is not valid."}}
+	at app.nekogram.translator.MicrosoftTranslator.a(SourceFile:74)
+	at app.nekogram.translator.BaseTranslator.translate(SourceFile:1)
+	at com.eam.rwtranslator.utils.Translator$TranslateTask.call(Translator.java:180)
+	at com.eam.rwtranslator.utils.Translator$TranslateTask.call(Translator.java:172)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask.runInterruptibly(TrustedListenableFutureTask.java:128)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:74)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:80)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+	at java.lang.Thread.run(Thread.java:1019)
+
+[2025-08-07 21:13:16.117] DEBUG/com.eam.rwtranslator.ui.editor.SectionEditorActivity: Modification status set to: true
+[2025-08-07 21:13:17.873] ERROR/com.eam.rwtranslator.ui.editor.SectionEditorAdapter$1: java.io.IOException: Invalid parameter: source_lang
+	at app.nekogram.translator.YandexTranslator.a(SourceFile:28)
+	at app.nekogram.translator.BaseTranslator.translate(SourceFile:1)
+	at com.eam.rwtranslator.utils.Translator$TranslateTask.call(Translator.java:180)
+	at com.eam.rwtranslator.utils.Translator$TranslateTask.call(Translator.java:172)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask.runInterruptibly(TrustedListenableFutureTask.java:128)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:74)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:80)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+	at java.lang.Thread.run(Thread.java:1019)
+
+

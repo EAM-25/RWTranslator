@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTitleBlock">
+        <!-- 标题栏左边 -->
+        <attr name="leftText" format="string"/>
+        <attr name="leftTextColor" format="color"/>
+        <attr name="leftTextSize" format="integer"/>
+        <attr name="leftImage" format="reference"/>
+
+        <!-- 标题栏中间 -->
+        <attr name="centerText" format="string"/>
+        <attr name="centerTextColor" format="color"/>
+        <attr name="centerTextSize" format="integer"/>
+
+        <!-- 搜索框 -->
+        <attr name="searchBox" format="boolean"/>
+        <attr name="searchBoxHint" format="string"/>
+        <attr name="searchBoxWidth" format="dimension">
+            <enum name="match_parent" value="-1"/>
+            <enum name="wrap_content" value="-2"/>
+        </attr>
+
+        <!-- 标题栏右边 -->
+        <attr name="rightText" format="string"/>
+        <attr name="rightTextColor" format="color"/>
+        <attr name="rightTextSize" format="integer"/>
+        <attr name="rightImage" format="reference"/>
+
+    </declare-styleable>
+    
+</resources>

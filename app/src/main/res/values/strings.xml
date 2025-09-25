@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Global -->
+    <string name="app_name">RWTranslator</string>
+    <string name="positive_button">OK</string>
+    <string name="negative_button">No</string>
+    <string name="loading_message">Loading...</string>
+
+    <!-- Main Activity -->
+    <string name="main_act_update_info_title">Update Content</string>
+    <string name="main_act_positive_button">Update</string>
+    <string name="main_act_unzip_dialog_tips">Decompressing…</string>
+    <string name="main_act_confirm_delete_project_dialog_title">Delete Confirmation</string>
+    <string name="main_act_confirm_delete_project_dialog_message">Whether to delete the project file:\n%1$s</string>
+    <string name="main_act_copyright">©2023 EAM. All Rights Reserved.</string>
+    <string name="main_act_operation_failed">Operation Failed</string>
+    <string name="main_act_exception_occurred">Exception occurred:\n%1$s</string>
+    <string name="main_act_exit_toast">Press back again to exit</string>
+    <string name="main_act_storage_permission_denied">Storage permission required</string>
+    <string name="main_act_version_check_failed">Failed to check version!</string>
+    <string name="main_act_import_success">Project imported successfully</string>
+    <string name="main_act_cache_cleared">Cache cleared</string>
+    <string name="main_act_cache_not_exist">Cache file does not exist</string>
+    <string name="main_act_long_click_menu_delect_project">Delect project</string>
+    <string name="main_act_long_click_menu_delect_cache">Delect cache</string>
+    <string name="main_act_empty_project_tips">There are no project files, please click on the lower right corner to decompress the modification or zip file!</string>
+    <string name="main_act_fab_load_archive">Load Archive</string>
+    <string name="main_act_fab_select_folder">Select Folder</string>
+
+    <!-- Translation Core -->
+    <string name="embedded_tran_describe">Transfer translation from the old version module to the current new version module. \nPlease ensure that the current project is a high version module and that the low version module has been loaded into the project folder. Migration should be based on whether the value of the new and old version name keys is the same</string>
+    <!-- Project File Manager Activity -->
+    <string name="project_act_rename_title">Rename</string>
+    <string name="project_act_delete_title">Delete File</string>
+    <string name="project_act_delete_message">Are you sure to delete this file? This action cannot be undone.</string>
+    <string name="project_act_deleted">Deleted</string>
+    <string name="project_act_file_info">File Information</string>
+    <string name="project_act_copied_clipboard">Copied to clipboard</string>
+    <string name="project_act_under_development">Feature not available</string>
+    <string name="project_act_exporting">Exporting…</string>
+    <string name="project_act_export_success">Exported to directory: %s</string>
+    <string name="project_act_export_failed">Task failed: %s</string>
+    <string name="project_act_unsaved_dialog_title">%s</string>
+    <string name="project_act_unsaved_message">Unsaved data. Save before exiting?</string>
+    <string name="project_act_save_exit">Save and Exit</string>
+    <string name="project_act_discard">Discard</string>
+    <string name="project_act_old_module_dialog_title">Select Old Version Module</string>
+    <string name="project_act_operation_success">Operation succeeded!</string>
+    <string name="project_act_operation_failed">Operation failed: %s</string>
+    <string name="project_act_saved_files">%d files saved</string>
+    <string name="project_act_input_empty_error">Input cannot be empty</string>
+    <string name="project_act_config_translator_dialog_title">Configure translation parameter</string>
+    <string name="project_act_config_llm_translator_dialog_title">Configure LLM translation parameter</string>
+    <string name="project_act_toolbar_memu_filter">Filter</string>
+    <string name="project_act_toolbar_memu_save">Save</string>
+    <string name="project_act_toolbar_memu_search">Search</string>
+    <string name="project_act_toolbar_memu_export">Export</string>
+    <string name="project_act_toolbar_memu_setting">Setting</string>
+    <string name="project_act_swipe_menu_rename_dialog_hint">File name</string>
+    <string name="project_act_swipe_menu_info_dialog_directory">Directory</string>
+    <string name="project_act_swipe_menu_info_dialog_size">Size</string>
+    <string name="project_act_swipe_menu_info_dialog_modify_date">Last modified date</string>
+    <string name="project_act_config_translator_dialog_engine">Translator</string>
+    <string name="project_act_config_translator_dialog_from">Origin Language</string>
+    <string name="project_act_config_translator_dialog_to">Target Language</string>
+    <string name="project_act_config_translator_dialog_language_hint">Enter language code</string>
+    <string name="project_act_config_translator_dialog_enable_llm">LLM Translation</string>
+    <string name="project_act_config_llm_translator_dialog_model">LLM Model</string>
+    <string name="project_act_config_llm_translator_dialog_system_prompt">System Prompt</string>
+    <string name="project_act_tencent_translate">Tencent Translate</string>
+    <string name="project_act_baidu_translate">Baidu Translate</string>
+    <string name="project_act_sogou_translate">Sogou Translate</string>
+    <string name="project_act_google_translate">Google Translate</string>
+    <string name="project_act_microsoft_translate">Microsoft Translate</string>
+    <string name="project_act_deepl_translate">DeepL Translate</string>
+        <string name="project_act_yandex_translate">Yandex Translate</string>
+    
+    <!-- Language Display Names -->
+    <string name="project_act_zh_language_name">Chinese</string>
+    <string name="project_act_ru_language_name">Russian</string>
+    <string name="project_act_en_language_name">English</string>
+    <string name="project_act_ja_language_name">Japanese</string>
+    <string name="project_act_de_language_name">German</string>
+    <string name="project_act_es_language_name">Spanish</string>
+    <string name="project_act_fr_language_name">French</string>
+    <string name="project_act_pt_language_name">Portuguese</string>
+    <string name="project_act_it_language_name">Italian</string>
+    <string name="project_act_nl_language_name">Dutch</string>
+    <string name="project_act_tr_language_name">Turkish</string>
+    <string name="project_act_pl_language_name">Polish</string>
+    <string name="project_act_uk_language_name">Ukrainian</string>
+
+    <string name="section_act_info_dialog_title">Tips</string>
+    <string name="section_act_loading_dialog_message">Processed:\n(%1$d/%2$d)</string>
+    <string name="section_act_toolbar_menu_expand_all">Expand all</string>
+    <string name="section_act_toolbar_menu_collapse_all">Collapse all</string>
+    <string name="setting_act_clear_message">Deleted successfully</string>
+    <string name="setting_act_open_url_failed_message">Failed to open link</string>
+    <string name="setting_act_project_category_title">Project</string>
+    <string name="setting_act_override_title">Override translations</string>
+    <string name="setting_act_override_summary">When enabled, will directly replace key values instead of creating multilingual keys</string>
+    <string name="setting_act_clean_cache_title">Clear cache</string>
+    <string name="setting_act_clean_cache_summary">Clear all project caches</string>
+    <string name="setting_act_join_group_title">Join group</string>
+    <string name="setting_act_join_group_summary">Report bugs and help improve RWTranlater</string>
+    <string name="setting_act_ai_translator_category_title">AI Translation</string>
+    <string name="setting_act_export_path_title">Project Export Path</string>
+     <string name="setting_act_ai_translator_select_gemini_model_title">Select Model</string>
+    <string name="setting_act_api_key_dialog_title">Enter API Key</string>
+    <string name="fragment_translator_dialog_spinner_same_message">Could not select same selection</string>
+    <string name="main_act_storage_permission_granted">Storage Permission Granted</string>
+    <string name="project_act_document_permission_granted">Document access permission granted</string>
+    <string name="project_act_document_permission_denied">Document access permission denied</string>
+    <string name="setting_act_export_path_default_value">/storage/emulated/0/Download</string>
+    <string name="setting_act_about_development_title">About development</string>
+    <string name="setting_act_about_development_summary">Inspect github repository</string>
+    <string name="setting_act_category_develop_title">Development</string>
+    
+    <!-- Settings Fragment Strings -->
+    <string name="setting_act_android_version_requirement">This feature requires Android 5.0 and above</string>
+    <string name="setting_act_export_path_set_success">Export path set to: %1$s</string>
+    
+    <!-- Export Error Messages -->
+    <string name="project_act_export_create_file_failed">Failed to create file</string>
+    <string name="project_act_export_open_stream_failed">Failed to open output stream</string>
+    
+    <!-- Version Update Strings -->
+    <string name="main_act_new_version_available">New version %1$s is available!</string>
+    <string name="main_act_no_release_notes">No release notes available.</string>
+    <string name="setting_act_reset_export_path_summary">Reset the export path to the Download directory of the external storage</string>
+    <string name="setting_act_reset_export_path_title">Reset the export path</string>
+
+    <!-- Crash Activity -->
+    <string name="crash_title">Application Crashed</string>
+    <string name="crash_description">The application has encountered an unexpected error. You can share the crash log to help us fix this issue, or restart the application.</string>
+    <string name="share_log">Share Log</string>
+    <string name="restart_app">Restart App</string>
+    <string name="project_act_config_llm_dialog_system_prompt">System Prompt</string>
+    <string name="project_act_config_llm_dialog_model">Model</string>
+    <string name="exception_occurred">Exceotion Occurred</string>
+    <string name="project_act_target_language_identifier_is_not_find">{target_language} identifier is not find in the system prompt</string>
+
+</resources>

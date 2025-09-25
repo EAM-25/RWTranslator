@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="25dp"
+    android:height="25dp"
+    android:viewportWidth="25"
+    android:viewportHeight="25">
+
+    <!-- 字母路径（按比例缩小0.78125） -->
+    <path
+        android:fillColor="?attr/colorOnSurface"
+        android:pathData="M14.844,16.406 L14.844,14.844 L15.625,14.844 L15.625,9.375 L14.844,9.375
+        L14.844,7.813 L17.969,7.813 L17.969,9.375 L17.188,9.375 L17.188,14.844 L17.969,14.844
+        L17.969,16.406 Z
+        M12.109,16.406 L13.672,16.406 L10.938,7.813 L8.594,7.813 L5.862,16.406 L7.424,16.406
+        L7.894,14.844 L11.627,14.844 Z
+        M8.365,13.281 L9.636,9.054 L9.836,9.052 L11.144,13.281 Z" />
+
+    <!-- 边框路径（按比例缩小0.78125） -->
+    <path
+        android:fillColor="?attr/colorOnSurface"
+        android:pathData="M25,25 L0,25 L0,0 L25,0 Z
+        M1.563,23.438 L23.438,23.438 L23.438,1.563 L1.563,1.563 Z" />
+</vector>

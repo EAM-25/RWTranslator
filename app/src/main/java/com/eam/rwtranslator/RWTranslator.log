@@ -1,0 +1,18 @@
+[2025-07-08 18:32:05.023] DEBUG/com.eam.rwtranslator.utils.CacheManager: 序列化缓存目录: /storage/emulated/0/Android/data/com.eam.rwtranslator/cache/serial
+[2025-07-08 18:32:05.029] DEBUG/com.eam.rwtranslator.utils.CacheManager: 缓存文件: [汉化]ProgTech_X_desscription_patch_fixed.json (大小: 1230363 bytes)
+[2025-07-08 18:32:05.036] DEBUG/com.eam.rwtranslator.ui.project.TranslationConfigManager: Starting deserialization of file: /storage/emulated/0/Android/data/com.eam.rwtranslator/cache/serial/[汉化]ProgTech_X_desscription_patch_fixed.json, size: 1230363 bytes
+[2025-07-08 18:32:29.819] DEBUG/com.eam.rwtranslator.ui.editor.SectionEditorActivity: Modification status set to: true
+[2025-07-08 18:32:30.709] DEBUG/com.eam.rwtranslator.ui.editor.SectionEditorAdapter$1: translation:土地
+[2025-07-08 18:35:29.628] DEBUG/com.eam.rwtranslator.ui.editor.SectionEditorActivity: isModified:true
+[2025-07-08 18:36:34.411] DEBUG/com.eam.rwtranslator.ui.editor.SectionEditorActivity: isModified:false
+[2025-07-08 18:37:10.047] DEBUG/com.eam.rwtranslator.ui.editor.SectionEditorActivity: isModified:false
+[2025-07-08 18:37:29.195] ERROR/com.eam.rwtranslator.ui.project.IniFileManagerActivity: java.lang.NullPointerException
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:227)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:186)
+	at java.io.FileWriter.<init>(FileWriter.java:96)
+	at com.eam.rwtranslator.ui.project.TranslationConfigManager.serialize(TranslationConfigManager.java:280)
+	at com.eam.rwtranslator.ui.project.IniFileManagerActivity.lambda$saveToIniFiles$22(ProjectFileManagerActivity.java:615)
+	at com.eam.rwtranslator.ui.project.IniFileManagerActivity.$r8$lambda$uPMnKrl0SIzuLxJ6D-fvB2ceoEk(Unknown Source:0)
+	at com.eam.rwtranslator.ui.project.IniFileManagerActivity$$ExternalSyntheticLambda33.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1019)
+
