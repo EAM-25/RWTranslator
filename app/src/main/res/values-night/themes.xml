@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- Base application theme. -->
+  <style name="Base.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+  </style>
+    <style name="ThemeOverlay" parent="ThemeOverlay.Material3.Dark">   
+       <item name="overlapAnchor">false</item>  
+    </style> 
+  <style name="AppTheme" parent="Base.AppTheme" />
+</resources>

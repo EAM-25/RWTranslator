@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:padding="10dp"
+     android:orientation="horizontal">
+
+    <!-- 主要内容区域 -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical"
+             android:textSize="20sp"
+             android:textColor="?attr/colorPrimaryVariant"
+             android:id="@+id/IniListItemTextView1" />
+        <LinearLayout
+            android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+            android:orientation="horizontal">
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:textSize="15sp"
+             android:textColor="?attr/colorPrimaryVariant"
+             android:id="@+id/IniListItemTextView2" />
+           <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+                android:paddingStart="10dp"
+             android:textSize="15sp"
+             android:textColor="?attr/colorPrimaryVariant"
+             android:id="@+id/IniListItemTextView3" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:id="@+id/mark_indicator_modify"
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/mark_indicator_view"
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+    
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+     <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="selection_color">#FF66BFDD</color>
+   <!-- Material3 标准颜色 -->
+<color name="m3_surface_container">#FFF3EDF7</color>
+<color name="m3_outline">#FF79747E</color>
+   <!-- Material3 强制回退颜色 -->
+<color name="material_outline_color">#79747E</color> <!-- 中等灰色 -->
+<color name="material_secondary_container">#E8DEF8</color> <!-- 浅紫色 -->
+<color name="material_surface_color">#FFFBFE</color> <!-- 浅米色 -->
+    <!-- res/values/colors.xml -->
+    <color name="system_background">#FFFFFFFF</color>
+    <color name="outline_color">#FFE0E0E0</color>
+    <color name="surface_color">#FFFFFFFF</color>
+    <color name="on_surface_text_color">#FF000000</color>
+    <color name="secondary_container">#FFE8DEF8</color>
+    <color name="on_secondary_container_text">#FF1D192B</color>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 全局 -->
+    <string name="app_name">RWTranslator</string>
+    <string name="positive_button">确认</string>
+    <string name="negative_button">取消</string>
+    <string name="loading_message">加载中...</string>
+
+    <!-- 主活动 -->
+    <string name="main_act_update_info_title">更新内容</string>
+    <string name="main_act_positive_button">更新</string>
+    <string name="main_act_unzip_dialog_tips">正在解压…</string>
+    <string name="main_act_confirm_delete_project_dialog_title">确认删除</string>
+    <string name="main_act_confirm_delete_project_dialog_message">是否要删除工程文件:\n%1$s</string>
+    <string name="main_act_copyright">©2023 EAM. All Rights Reserved.</string>
+    <string name="main_act_operation_failed">操作失败</string>
+    <string name="main_act_exception_occurred">发生异常: %1$s</string>
+    <string name="main_act_exit_toast">再按一次返回键退出程序</string>
+    <string name="main_act_storage_permission_denied">需要存储权限</string>
+    <string name="main_act_version_check_failed">获取版本号失败！</string>
+    <string name="main_act_import_success">项目导入成功</string>
+    <string name="main_act_cache_cleared">缓存已清除</string>
+    <string name="main_act_cache_not_exist">缓存文件不存在</string>
+    <string name="main_act_long_click_menu_delect_project">删除项目</string>
+    <string name="main_act_long_click_menu_delect_cache">删除缓存</string>
+    <string name="main_act_empty_project_tips">没有任何工程文件，请点击右下角解压模组!</string>
+    <string name="main_act_fab_load_archive">加载压缩包</string>
+    <string name="main_act_fab_select_folder">选择文件夹</string>
+    <!-- 翻译核心 -->
+    <string name="embedded_tran_describe">从旧版本模组中迁移翻译至当前新版本模组。\n请确保当前项目是高版本模组，且低版本模组已加载至\n项目文件夹，根据新旧版本name键的值是否相同来迁移</string>
+    <!-- 工程文件管理活动 -->
+    <string name="project_act_rename_title">重命名</string>
+    <string name="project_act_delete_title">删除文件</string>
+    <string name="project_act_delete_message">你真的要删除此文件吗?该操作不可撤销</string>
+    <string name="project_act_deleted">已删除</string>
+    <string name="project_act_file_info">文件信息</string>
+    <string name="project_act_copied_clipboard">已复制到剪切板</string>
+    <string name="project_act_under_development">暂未开发</string>
+    <string name="project_act_exporting">正在导出…</string>
+    <string name="project_act_export_success">已导出至目录: %s</string>
+    <string name="project_act_export_failed">任务执行失败：%s</string>
+    <string name="project_act_unsaved_dialog_title">%s</string>
+    <string name="project_act_unsaved_message">数据未保存，是否保存?</string>
+    <string name="project_act_save_exit">保存并退出</string>
+    <string name="project_act_discard">不保存</string>
+    <string name="project_act_old_module_dialog_title">请选择旧版本模组</string>
+    <string name="project_act_operation_success">操作成功！</string>
+    <string name="project_act_operation_failed">操作失败：%s</string>
+    <string name="project_act_saved_files">已保存%d个文件</string>
+    <string name="project_act_input_empty_error">输入不能为空</string>
+    <string name="project_act_config_translator_dialog_title">配置翻译参数</string>
+    <string name="project_act_config_llm_translator_dialog_title">配置LLM翻译参数</string>
+    <string name="project_act_toolbar_memu_filter">过滤</string>
+    <string name="project_act_toolbar_memu_save">保存</string>
+    <string name="project_act_toolbar_memu_search">搜索</string>
+    <string name="project_act_toolbar_memu_export">导出模组</string>
+    <string name="project_act_toolbar_memu_setting">设置</string>
+    <string name="project_act_swipe_menu_rename_dialog_hint">文件名</string>
+    <string name="project_act_swipe_menu_info_dialog_directory">目录</string>
+    <string name="project_act_swipe_menu_info_dialog_size">大小</string>
+    <string name="project_act_swipe_menu_info_dialog_modify_date">最后修改时间</string>
+    <string name="project_act_config_translator_dialog_engine">翻译引擎</string>
+    <string name="project_act_config_translator_dialog_from">原语言</string>
+    <string name="project_act_config_translator_dialog_to">目标语言</string>
+    <string name="project_act_config_translator_dialog_language_hint">输入语言代码</string>
+   <string name="project_act_config_translator_dialog_enable_llm">LLM翻译</string>
+    <string name="project_act_config_llm_translator_dialog_model">LLM模型</string>
+    <string name="project_act_config_llm_translator_dialog_system_prompt">系统提示词</string>
+
+    <string name="project_act_tencent_translate">腾讯翻译</string>
+    <string name="project_act_baidu_translate">百度翻译</string>
+    <string name="project_act_sogou_translate">搜狗翻译</string>
+    <string name="project_act_google_translate">谷歌翻译</string>
+    <string name="project_act_microsoft_translate">微软翻译</string>
+    <string name="project_act_deepl_translate">Deepl翻译</string>
+        <string name="project_act_yandex_translate">Yandex翻译</string>
+    <!-- 语言显示名称 -->
+    <string name="project_act_zh_language_name">中文</string>
+    <string name="project_act_ru_language_name">俄语</string>
+    <string name="project_act_en_language_name">英语</string>
+    <string name="project_act_ja_language_name">日语</string>
+    <string name="project_act_de_language_name">德语</string>
+    <string name="project_act_es_language_name">西班牙语</string>
+    <string name="project_act_fr_language_name">法语</string>
+    <string name="project_act_pt_language_name">葡萄牙语</string>
+    <string name="project_act_it_language_name">意大利语</string>
+    <string name="project_act_nl_language_name">荷兰语</string>
+    <string name="project_act_tr_language_name">土耳其语</string>
+    <string name="project_act_pl_language_name">波兰语</string>
+    <string name="project_act_uk_language_name">乌克兰语</string>
+
+    <string name="section_act_info_dialog_title">提示</string>
+    <string name="section_act_loading_dialog_message">已处理:\n(%1$d/%2$d)</string>
+    <string name="section_act_toolbar_menu_expand_all">全部展开</string>
+    <string name="section_act_toolbar_menu_collapse_all">全部收起</string>
+    <string name="setting_act_clear_message">删除成功</string>
+    <string name="setting_act_open_url_failed_message">打开链接失败</string>
+    <string name="setting_act_project_category_title">项目</string>
+    <string name="setting_act_override_title">是否覆盖翻译</string>
+    <string name="setting_act_override_summary">打开会直接替换键的值，而不会创建多语言键</string>
+    <string name="setting_act_clean_cache_title">清除缓存</string>
+    <string name="setting_act_clean_cache_summary">清除所有项目缓存</string>
+    <string name="setting_act_join_group_title">加入群组</string>
+    <string name="setting_act_join_group_summary">反馈bug，让RWTranlater变得更好</string>
+    <string name="setting_act_ai_translator_category_title">AI翻译</string>
+    <string name="setting_act_export_path_title">项目导出路径</string>
+    <string name="setting_act_ai_translator_select_gemini_model_title">选择模型</string>
+    <string name="setting_act_api_key_dialog_title">输入API Key</string>
+    <string name="fragment_translator_dialog_spinner_same_message">不能选择相同选项</string>
+    <string name="main_act_storage_permission_granted">存储权限已授权</string>
+    <string name="project_act_document_permission_granted">文档访问权限已授权</string>
+    <string name="project_act_document_permission_denied">文档访问权限被拒绝</string>
+    
+    <!-- Settings Fragment Strings -->
+    <string name="setting_act_android_version_requirement">此功能需要Android 5.0及以上版本</string>
+    <string name="setting_act_export_path_set_success">导出路径已设置为: %1$s</string>
+    
+    <!-- Export Error Messages -->
+    <string name="project_act_export_create_file_failed">无法创建文件</string>
+    <string name="project_act_export_open_stream_failed">无法打开输出流</string>
+    
+    <string name="setting_act_about_development_title">关于开发</string>
+    <string name="setting_act_about_development_summary">查看Github仓库</string>
+    <string name="setting_act_category_develop_title">开发</string>
+    <string name="main_act_no_release_notes">release标签不可用</string>
+    <string name="setting_act_reset_export_path_summary">重置导出目录到外部存储的Download目录</string>
+    <string name="setting_act_reset_export_path_title">重置导出路径</string>
+
+    <!-- 崩溃活动 -->
+    <string name="crash_title">应用程序崩溃</string>
+    <string name="crash_description">应用程序遇到了意外错误。您可以分享崩溃日志来帮助我们修复此问题，或者重启应用程序。</string>
+    <string name="share_log">分享日志</string>
+    <string name="restart_app">重启应用</string>
+    <string name="project_act_config_llm_dialog_system_prompt">系统提示词</string>
+    <string name="project_act_config_llm_dialog_model">模型</string>
+    <string name="main_act_new_version_available">有新版本！</string>
+    <string name="exception_occurred">发生异常</string>
+    <string name="project_act_target_language_identifier_is_not_find">在系统提示词中没有找到标识符{target_language}</string>
+</resources>

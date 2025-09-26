@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent">
+    
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:endIconMode="custom"
+        app:endIconDrawable="@drawable/ic_arrow_expand"
+        android:paddingHorizontal="13dp"
+        android:id="@+id/translater_dialig_inputEditLayout"
+         android:paddingTop="7dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:imeOptions="flagNoEnterAction"
+             android:inputType="textMultiLine"
+             android:focusable="true"
+             android:id="@+id/translater_dialig_inputEditText" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
